@@ -87,12 +87,6 @@
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-    <script>
-        window.onload = function() {
-          document.getElementById("my_audio").play();
-      }
-      
-          </script>
     <script async="" src="./Wedding_files/js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -162,10 +156,18 @@
 
     </script>
 
+    <script>
+
+window.onload = function() {
+    document.getElementById("my_audio").play();
+}
+    </script>
+
+
 </head>
 
 <body data-aos-easing="ease-out" data-aos-duration="800" data-aos-delay="0">
-    <audio id="my_audio" src="audio.m4a" loop="loop"></audio>
+ 
     <!-- Begin Preloader -->
     <div class="preloader-wrapper" style="display: none;">
         <div class="preloader">
@@ -177,6 +179,8 @@
     <!-- Begin Header -->
     <div class="header-wrapper " id="home">
         <!-- Begin Hero -->
+
+        <audio id="my_audio" src="audio.mp3" loop="loop"></audio>
 
         <section class="hero is-large">
 
